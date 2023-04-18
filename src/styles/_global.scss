@@ -1,0 +1,31 @@
+html {
+    scroll-behavior: smooth !important;
+    scrollbar-width: thin;
+    scrollbar-color: var(--dark-slate) var(--background-color);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-color);      
+    max-width: 100vw;
+    overflow-x: hidden;
+    counter-reset: title;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background-color);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--dark-slate);
+  border: 3px solid var(--background-color);
+  border-radius: 10px;
+}
+
