@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import { Inter } from 'next/font/google';
 import Navbar from "@/sections/Navbar";
 import SocialIcon from '@/components/SocialIcon';
 import Email from '@/components/Email';
@@ -11,7 +10,6 @@ import Contact from '@/sections/Contact';
 import { useState } from 'react';
 import Loader from '@/components/Loader';
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
 
