@@ -10,70 +10,61 @@ const Experience = () => {
     useEffect(() => {
         const transformSelected = () => {
           const underline = document.querySelector<HTMLElement>(".underline");
-          underline?.style.setProperty('top',`${  selected * 2.5}rem`);
+          underline?.style.setProperty('top',`${  selected * 4.5}rem`);
         };
         transformSelected();
       }, [selected]);
 
     const expereinces = [
         {
-            name: "Rapidops",
-            role: "Full Stack Developer",
-            url: "https://www.rapidops.com",
-            start: "January 2021",
-            end: "Present",
+            name: "Myanmar High Society",
+            place: "Myanmar High Society",
+            role: "Frontend Developer Internship",
+            url: "https://www.linkedin.com/company/myanmar-high-society/",
+            start: "November 2022",
+            end: "January 2023",
             shortDescription: [
-            "I had experience working on a large codebase utilizing Kibana and Elasticsearch.",
-            "Throughout my work, I've utilized various MERN stack technologies, including React, Redux, TypeScript, Node.js, Hapi, and Elasticsearch, among others.",
-            "I've also managed a small team that includes Frontend Developers, Backend Developers, and UI/UX Developers.",
-            "Additionally, I've represented the company in client meetings, communicating effectively on their behalf.",
+            "As a frontend developer intern, I had the opportunity to work on several projects using React, a popular JavaScript library for building user interfaces. Through this experience, I gained expertise in React components, state management, and routing, as well as best practices for web development, such as code organization and version control.",
+            "As a frontend developer intern with React, I was responsible for maintaining and improving several existing web applications. This involved reviewing code, identifying bugs, debugging errors, and optimizing performance.",
+            "Throughout the internship, I collaborated closely with other team members, participated in code reviews, and contributed to discussions on user experience design. This experience allowed me to further develop my technical skills in frontend development while also gaining valuable soft skills such as communication and teamwork.",
             ],
         },
         {
-            name: "Youtube",
-            role: "Content Creator",
-            url: "https://www.youtube.com/kishansheth21",
-            start: "April 2021",
-            end: "Present",
+            name: "Computer Science Student",
+            place: "University Of Computer Studies Thaton(UCSTT)",
+            role: "Student",
+            url: "http://ucstt.edu.mm/",
+            start: "June 2016",
+            end: "June 2024",
             shortDescription: [
-            "Upon graduating in 2021, I began creating content on YouTube, with the aim of enhancing my skills and working with the latest technologies, specifically React and Node.",
-            "Over time, I have developed and shared over 50 projects using React on my channel.",
-            "As a result, my channel has gained a substantial following, with over 11,000 subscribers to date. I have also had the pleasure of collaborating with various brands throughout my journey.",
+            "As a computer science student, I have gained a solid understanding of programming fundamentals, data structures, algorithms and software engineering principles.",
+            "During my second year as a computer science student, I had the opportunity to work on my first team project - the Hotel Booking System. Together with my peers, we used Java and MySQL to develop a web-based application that allowed users to search for available hotels and book reservations.",
+            "Overall as a computer science student, I have learned how to approach problems with a logical and systematic mindset, and how to work effectively both independently and as part of a team.",
             ],
         },
         {
-            name: "ACES",
-            role: "President",
-            url: "https://www.linkedin.com/company/association-of-computer-engineering-students/",
-            start: "November 2019",
-            end: "November 2020",
-            shortDescription: [
-            "As the elected President of the ACES Departmental Club, I successfully led a team of board members and executive committee members to organize and execute multiple events throughout the year.",
-            "Additionally, I secured sponsorships from reputable brands to support our events.",
-            "Overall, it was a rewarding experience that allowed me to develop my leadership skills while contributing positively to the growth of the organization.",
-            ],
+          name: "Special Web Design",
+          place: "MMS IT",
+          role: "Student",
+          url: "https://mms-it.com/",
+          start: "October 2022",
+          end: "Current",
+          shortDescription: [
+          "I recently attended an online class called 'Special Web Design' where I learned advanced web design concepts and gained valuable skills in HTML, CSS, JavaScript, Bootstrap, and React.",
+          "Through this class, I also gained knowledge in user interface (UI) design and how to create effective, visually appealing web pages. The class was taught by industry experts and provided a hands-on learning experience with real-world projects.",
+          "Overall, the skills and knowledge I gained from this class have greatly contributed to my growth as a frontend developer and expanded my capabilities in web design.",
+          ],
         },
         {
-            name: "ISTE",
-            role: "Web Developer",
-            url: "https://www.linkedin.com/company/association-of-computer-engineering-students/",
-            start: "November 2019",
-            end: "November 2020",
+            name: "Meta Front-End Developer",
+            place: "Meta Front-End Developer Professional Certificate",
+            role: "Student",
+            url: "https://www.coursera.org/professional-certificates/meta-front-end-developer",
+            start: "November 2022",
+            end: "Current",
             shortDescription: [
-            "Write modern, performant, maintainable code for a diverse array of client and internal projects",
-            "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify",
-            "Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis",
-            ],
-        },
-        {
-            name: "Shashaan",
-            role: "Founder",
-            url: "https://www.linkedin.com/company/association-of-computer-engineering-students/",
-            start: "November 2018",
-            end: "November 2021",
-            shortDescription: [
-            "While still a student, I founded a web hosting company that offered affordable hosting services.",
-            "With over 300 customers, the business thrived until I graduated and sold it to another company.",
+            "I currently attended an online course on Coursera called Meta Front-End Developer Professional Certificate. This intensive program covered amazing topics related to front-end web development, including HTML, CSS, JavaScript, React, responsive design, and user experience (UX) design.",
+            "I gained practical skills and experience in building web applications, designing effective user interfaces, and writing clean and maintainable code.",
             ],
         },
     ];
@@ -92,7 +83,8 @@ const Experience = () => {
       }}
     >
       <div className="title">
-        <h2>Where I&apos;ve Worked</h2>
+        {/* <h2>Where I&apos;ve Worked</h2> */}
+        <h2>Education And Experience</h2>
       </div>
       <div className="container">
         <ul className="exp-slider">
@@ -115,8 +107,8 @@ const Experience = () => {
               <span>{expereinces[selected].role}</span>
               <span className="exp-details-position-company">
                 &nbsp;@&nbsp;
-                <Link href={expereinces[selected].url} className="link">
-                  {expereinces[selected].name}
+                <Link href={expereinces[selected].url} className="link" target='_blank'>
+                  {expereinces[selected].place}
                 </Link>
               </span>
             </h3>

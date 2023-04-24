@@ -20,9 +20,10 @@ const Contact = () => {
       <h2 className="contact-title">What&apos;s Next?</h2>
       <h2 className="contact-sub-title">Get In Touch</h2>
       <p className="contact-text">
-        Although I’m not currently looking for any new opportunities, my inbox
-        is always open. Whether you have a question or just want to say hi, I’ll
-        try my best to get back to you!
+      I am currently seeking a position as a frontend developer, and 
+      I am excited to explore new opportunities in this field.
+      If you would like to get in touch with me, please feel free to reach out via email or LinkedIn. 
+      I look forward to connecting with you!
       </p>
       <div className="contact-cta">
         <Button link="mailto:zawnaingoo002345@gmail.com" text="Say Hello" />

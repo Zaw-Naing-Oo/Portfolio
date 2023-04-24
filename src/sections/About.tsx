@@ -24,35 +24,24 @@ const About = () => {
       <div className="about-grid">
         <div className="about-grid-info">
           <p className="about-grid-info-text">
-            Bonjour! My name is Kishan, and I am passionate about creating
+            My name is Zaw Naing Oo, and I am passionate about creating
             digital content for the web. My interest in web development was
-            sparked in 2016 when I created my first project called Lavish, a
-            social media app built using React and Node.js.
+            sparked in 2020 when I created my first project called Travelling, a
+            blog app built using Laravel and Bootstrap.
           </p>
           <p className="about-grid-info-text">
-            Fast-forward to today, I specialize in designing and developing
-            high-quality solutions that delight our clients and exceed their
-            expectations at{" "}
-            <Link href="https://rapidops.com" className="link" target="_blank">
-              Rapidops.
+           I recently completed an internship as a React developer,
+           where I gained valuable experience working on real-world projects.
+           During my internship, I had the opportunity to work with a talented team and contribute 
+           to the development of several applications. 
+          </p>
+          <p className="about-grid-info-text">
+          I recently completed a MERN project called  <Link className="link" target="_blank" href="https://frontendvita.com">
+              Travelastia&nbsp;
             </Link>
-          </p>
-
-          <p className="about-grid-info-text">
-            Additionally, I share my knowledge and passion with the world
-            through my YouTube channel, where I demonstrate how to build
-            full-stack applications.
-          </p>
-          <p className="about-grid-info-text">
-            I am also working on a new project called&nbsp;
-            <Link
-              className="link"
-              target="_blank"
-              href="https://frontendvita.com"
-            >
-              FrontendVita,
-            </Link>
-            &nbsp;aimed at enhancing frontend development skills.
+          a platform that allows users to share their travel experiences. 
+          This project helped me to deepen my understanding of the MERN stack and build my skills in areas such as database design, API integration, and user authentication.
+    
           </p>
           <p className="about-grid-info-text">
             Here are a few technologies I’ve been working with recently:
@@ -70,10 +59,10 @@ const About = () => {
           </ul>
         </div>
         <div className="about-grid-photo">
-          <div className="overlay"></div>
-          <div className="overlay-border"></div>
+          {/* <div className="overlay"></div> */}
+          {/* <div className="overlay-border"></div> */}
           <div className="about-grid-photo-container">
-            <Image src="/women.jpeg" alt="profile" fill />
+            <Image src="/profile.svg" alt="profile" fill />
           </div>
         </div>
       </div>

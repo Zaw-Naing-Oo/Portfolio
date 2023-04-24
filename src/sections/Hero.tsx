@@ -53,12 +53,6 @@ const Hero = () => {
           delay: 1.35,
         }}
       >
-        {/* I&apos;m a software engineer with expertise in creating top-notch
-        digital experiences. My current focus is on developing products that are
-        accessible and centered around user needs, as part of the team at&nbsp;
-        <Link href="https://rapidops.com" target="_blank" className="link">
-          Rapidops.
-        </Link> */}
         A Frontend focused Web Developer building the frontend Websites and Web Applications that leads to the success of the overall product
       </motion.p>
       <motion.div

@@ -8,60 +8,74 @@ const Projects = () => {
 
     const projectsData = [
         {
-          image: "/admindashboard.png",
-          projectName: "Pokedex",
-          projectLink: "https://netlify.com",
+          image: "/travelastia.png",
+          projectName: "Travelastia",
+          projectLink: "https://travelastia-i87u.onrender.com/tours",
           projectDescription:
-            "This is a web application that uses the PokeAPI to display information about different Pokemon, including their evolution levels and details. You can compare multiple Pokemon using a queue, and add them to your personal list using Firebase's Firestore database.",
+            "This is a MERN stack application that users can share their beautiful travel posts and experience. And they can edit and delete their own posts. And they can also give likes and comments to other posts.",
           projectTech: [
             "React",
+            "Nodejs",
+            "MongoDB",
             "Redux Toolkit",
             "SCSS",
-            "Firebase",
-            "Typescript",
-            "PokeApi",
+            "react-query",
+            "Mui",
+            "Lottiefiles",
           ],
           projectExternalLinks: {
-            github: "",
-            externalLink: "",
+            github: "https://github.com/Zaw-Naing-Oo/Travelastia",
+            externalLink: "https://travelastia-i87u.onrender.com/tours",
           },
         },
         {
-          image: "/marktingProfile.png",
-          projectName: "Realtime Chat App",
-          projectLink: "https://netlify.com",
+          image: "/adminDashboard.png",
+          projectName: "Admin Dashboard",
+          projectLink: "https://admin-dashboard-a9y8.onrender.com/",
           projectDescription:
-            "This is a chat app made with React and Node.js that sends real-time messages and is highly scalable. It uses advanced JavaScript concepts like debouncing and is optimized for React. It has 300+ stars on GitHub and over 180k views on YouTube.",
+            "React Admin Dashboard.This Admin Panel includes one Dashboard, Three Pages, Four Apps, and Seven fully functional charts!",
           projectTech: [
             "React",
-            "Sockets",
-            "Node.js",
-            "Express",
-            "MongoDB",
-            "Styled Components",
+            "Syncfusion",
+            "tailwindcss",
           ],
           projectExternalLinks: {
-            github: "",
-            externalLink: "",
+            github: "https://github.com/Zaw-Naing-Oo/Admin---Dashboard",
+            externalLink: "https://admin-dashboard-a9y8.onrender.com/",
           },
         },
         {
           image: "/receipe.png",
-          projectName: "Netflix App",
-          projectLink: "https://netlify.com",
+          projectName: "Recipe App",
+          projectLink: "https://recipe-igs2.onrender.com/",
           projectDescription:
-            "I made a Netflix copy with TMBD Api. It has infinite scrolling and lets you watch movies by genre. You can also add movies to your favorites list.",
+            "I developed a recipe app that showcases popular dishes from four different countries: American, Japanese, Italian, and Thai. This project involved designing and implementing a user-friendly interface, integrating with external APIs to gather recipe information.",
           projectTech: [
             "React",
-            "Node.js",
-            "Firebase",
-            "MongoDB",
-            "Express",
-            "Redux Toolkit",
+            "styled-components",
+            "spoonacular-api",
+            "framer-motion",
+            "react-splide",
           ],
           projectExternalLinks: {
-            github: "",
-            externalLink: "",
+            github: "https://github.com/Zaw-Naing-Oo/Recipe-App",
+            externalLink: "https://recipe-igs2.onrender.com/",
+          },
+        },
+        {
+          image: "/tenzies.png",
+          projectName: "Tenzies-Game",
+          projectLink: "https://tenziess.netlify.app/",
+          projectDescription:
+            "I built a Tenzies game using React.Through this project, I gained experience with React components, and functional programming concepts. I learned from Scrimba about game logic and design, including how to implement randomized dice rolls and score calculation.",
+          projectTech: [
+            "React",
+            "react-hooks",
+            "react-confetti",
+          ],
+          projectExternalLinks: {
+            github: "https://github.com/Zaw-Naing-Oo/Tenzies-Game",
+            externalLink: "https://tenziess.netlify.app/",
           },
         },
       ];
@@ -120,6 +134,7 @@ const Projects = () => {
                       <Link
                         href={projectExternalLinks.github}
                         className="project-info-links-item-link"
+                        target='_blank'
                       >
                         <FiGithub />
                       </Link>
@@ -128,6 +143,7 @@ const Projects = () => {
                       <Link
                         href={projectExternalLinks.externalLink}
                         className="project-info-links-item-link"
+                        target='_blank'
                       >
                         <FiExternalLink />
                       </Link>

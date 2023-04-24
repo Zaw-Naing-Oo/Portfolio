@@ -27,7 +27,7 @@ export default function Home() {
    <div>
      <Head>
       <title>Zaw Naing Oo</title>
-      <link rel="shortcut icon" href="/favicon.ico" />
+      <link key="favicon" rel="shortcut icon" href="/avatar.png" />
      </Head>
      { showContent && (
       <>

@@ -23,7 +23,7 @@
           top: 20px;
           width: 300px;
           height: 2px;
-          margin-left: 380px;
+          margin-left: 450px;
           background-color: var(--lightest-navy);
         }
       }
@@ -41,7 +41,7 @@
           position: absolute;
           left: -0.5px;
           top: 0;
-          height: 2.5rem;
+          height: 4.5rem;
           width: 3px;
           transition: 0.3s ease-in-out;
         }
@@ -54,7 +54,7 @@
           background-color: var(--lightest-navy);
         }
         &-item {
-          height: 2.5rem;
+          height: 4.5rem;
           padding: 0 1.5rem;
           display: flex;
           vertical-align: middle;
@@ -124,6 +124,14 @@
           }
         }
       }
+      .container {
+        .exp-slider {
+          &-item {
+            height: 4rem;
+          }
+        }
+      }
+
     }
     @media screen and (max-width: 600px) {
       margin: 5rem auto;
