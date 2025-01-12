@@ -24,24 +24,19 @@ const About = () => {
       <div className="about-grid">
         <div className="about-grid-info">
           <p className="about-grid-info-text">
-            My name is Zaw Naing Oo, and I am passionate about creating
-            digital content for the web. My interest in web development was
-            sparked in 2020 when I created my first project called Travelling, a
-            blog app built using Laravel and Bootstrap.
+            My name is Zaw Naing Oo, and I am a backend-focused web developer.
+            I began my web development journey in 2021, and over time, I've gained experience in both frontend and full-stack development. 
+            Most recently, I worked as a full-stack developer for 3 months, where I collaborated with teams to build and improve web applications.
           </p>
           <p className="about-grid-info-text">
-           I recently completed an internship as a React developer,
-           where I gained valuable experience working on real-world projects.
-           During my internship, I had the opportunity to work with a talented team and contribute 
-           to the development of several applications. 
+          Currently, I am refining my backend skills, focusing on technologies like Java, Spring Boot, and database management to build scalable and efficient server-side solutions.
           </p>
           <p className="about-grid-info-text">
-          I recently completed a MERN project called  <Link className="link" target="_blank" href="https://frontendvita.com">
-              Travelastia&nbsp;
-            </Link>
-          a platform that allows users to share their travel experiences. 
-          This project helped me to deepen my understanding of the MERN stack and build my skills in areas such as database design, API integration, and user authentication.
-    
+          One of my recent projects,&nbsp; 
+          <Link className="link" target="_blank" href="https://github.com/Zaw-Naing-Oo/hms-frontend">
+              Hospital Management System
+          </Link>,
+          which includes features like appointment booking, doctor profiles, user dashboards, and advanced search/filter options. This project helped me deepen my backend development skills, including API integration and data management.
           </p>
           <p className="about-grid-info-text">
             Here are a few technologies I’ve been working with recently:
@@ -51,11 +46,15 @@ const About = () => {
             <li className="about-grid-info-list-item">CSS</li>
             <li className="about-grid-info-list-item">Javascript</li>
             <li className="about-grid-info-list-item">React</li>
-            <li className="about-grid-info-list-item">Nodejs</li>
-            <li className="about-grid-info-list-item">Laravel</li>
+            <li className="about-grid-info-list-item">Express</li>
+            <li className="about-grid-info-list-item">Java</li>
+            <li className="about-grid-info-list-item">Spring Boot</li>
+            <li className="about-grid-info-list-item">MongoDB</li>
+            <li className="about-grid-info-list-item">Git</li>
             <li className="about-grid-info-list-item">Tailwind</li>
             <li className="about-grid-info-list-item">Mui</li>
             <li className="about-grid-info-list-item">Redux Toolkit</li>
+
           </ul>
         </div>
         <div className="about-grid-photo">

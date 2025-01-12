@@ -41,7 +41,7 @@ const Hero = () => {
         }}
       >
         {/* I craft things for the web. */}
-        Frontend Developer
+        Backend Developer
       </motion.h3>
       <motion.p
         className="hero-text"
@@ -53,7 +53,7 @@ const Hero = () => {
           delay: 1.35,
         }}
       >
-        A Frontend focused Web Developer building the frontend Websites and Web Applications that leads to the success of the overall product
+       A backend developer focused on building reliable and scalable web applications.
       </motion.p>
       <motion.div
         className="hero-button"
