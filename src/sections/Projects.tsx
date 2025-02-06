@@ -8,6 +8,22 @@ const Projects = () => {
 
     const projectsData = [
         {
+          image: "/hospitalProject.png",
+          projectName: "Hospital Engagement Platform",
+          projectLink: "https://tenziess.netlify.app/",
+          projectDescription:
+            "Designed and developed a Hospital Engagement System to improve patient and hospital interactions. The system allows patients to book appointments, hospitals to manage accounts, and administrators to monitor operations through a dashboard. Built with modern web technologies, ensuring security and scalability.",
+          projectTech: [
+            "React",
+            "Express JS",
+            "MongoDB",
+          ],
+          projectExternalLinks: {
+            github: "https://github.com/Zaw-Naing-Oo/hms-backend",
+            externalLink: "https://github.com/Zaw-Naing-Oo/hms-frontend",
+          },
+        },
+        {
           image: "/travelastia.png",
           projectName: "Travelastia",
           projectLink: "https://travelastia-i87u.onrender.com/tours",
@@ -37,7 +53,7 @@ const Projects = () => {
           projectTech: [
             "React",
             "Syncfusion",
-            "tailwindcss",
+            "Tailwind CSS",
           ],
           projectExternalLinks: {
             github: "https://github.com/Zaw-Naing-Oo/Admin---Dashboard",
@@ -60,22 +76,6 @@ const Projects = () => {
           projectExternalLinks: {
             github: "https://github.com/Zaw-Naing-Oo/Recipe-App",
             externalLink: "https://recipe-igs2.onrender.com/",
-          },
-        },
-        {
-          image: "/tenzies.png",
-          projectName: "Tenzies-Game",
-          projectLink: "https://tenziess.netlify.app/",
-          projectDescription:
-            "I built a Tenzies game using React.Through this project, I gained experience with React components, and functional programming concepts. I learned from Scrimba about game logic and design, including how to implement randomized dice rolls and score calculation.",
-          projectTech: [
-            "React",
-            "react-hooks",
-            "react-confetti",
-          ],
-          projectExternalLinks: {
-            github: "https://github.com/Zaw-Naing-Oo/Tenzies-Game",
-            externalLink: "https://tenziess.netlify.app/",
           },
         },
       ];

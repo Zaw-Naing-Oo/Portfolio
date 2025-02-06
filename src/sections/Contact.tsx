@@ -20,7 +20,7 @@ const Contact = () => {
       <h2 className="contact-title">What&apos;s Next?</h2>
       <h2 className="contact-sub-title">Get In Touch</h2>
       <p className="contact-text">
-      I am currently seeking a position as a frontend developer, and 
+      I am currently seeking a position as a backend developer, and 
       I am excited to explore new opportunities in this field.
       If you would like to get in touch with me, please feel free to reach out via email or LinkedIn. 
       I look forward to connecting with you!

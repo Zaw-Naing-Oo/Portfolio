@@ -16,6 +16,20 @@ const Experience = () => {
       }, [selected]);
 
     const expereinces = [
+
+          {
+            name: "Pandora Technology",
+            place: "Pandora Technology",
+            role: "Junior Full-Stack Developer",
+            url: "https://www.linkedin.com/company/pandora-technology-co-ltd/",
+            start: "September 2023",
+            end: "November 2023",
+            shortDescription: [
+              "Worked on developing and maintaining web and mobile applications using React.js, React Native, and Express.js.",
+              "Integrated RESTful APIs to ensure seamless communication between the frontend and backend systems.",
+              "Gained hands-on experience in full-stack development, including backend integration and frontend design."
+          ]
+        },
         {
             name: "Myanmar High Society",
             place: "Myanmar High Society",
@@ -35,7 +49,7 @@ const Experience = () => {
             role: "Student",
             url: "http://ucstt.edu.mm/",
             start: "June 2016",
-            end: "June 2024",
+            end: "Oct 2025",
             shortDescription: [
             "As a computer science student, I have gained a solid understanding of programming fundamentals, data structures, algorithms and software engineering principles.",
             "During my second year as a computer science student, I had the opportunity to work on my first team project - the Hotel Booking System. Together with my peers, we used Java and MySQL to develop a web-based application that allowed users to search for available hotels and book reservations.",
