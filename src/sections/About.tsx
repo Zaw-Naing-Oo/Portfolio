@@ -25,7 +25,7 @@ const About = () => {
         <div className="about-grid-info">
           <p className="about-grid-info-text">
             My name is Zaw Naing Oo, and I am a backend-focused web developer.
-            I began my web development journey in 2021, and over time, I've gained experience in both frontend and full-stack development. 
+            I began my web development journey in 2021, and over time, I&apos;ve gained experience in both frontend and full-stack development. 
             Most recently, I worked as a full-stack developer for 3 months, where I collaborated with teams to build and improve web applications.
           </p>
           <p className="about-grid-info-text">
@@ -39,7 +39,7 @@ const About = () => {
           which includes features like appointment booking, doctor profiles, user dashboards, and advanced search/filter options. This project helped me deepen my backend development skills, including API integration and data management.
           </p>
           <p className="about-grid-info-text">
-            Here are a few technologies I’ve been working with recently:
+          Here are a few technologies I&apos;ve been working with recently:
           </p>
           <ul className="about-grid-info-list">
             <li className="about-grid-info-list-item">HTML</li>
