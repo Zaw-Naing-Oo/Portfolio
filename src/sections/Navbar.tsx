@@ -125,7 +125,7 @@ import {motion} from "framer-motion"
             delay: 0.6,
           }}
       >
-          <Button text="Resume" link={`https://drive.google.com/file/d/1fIyNqnEF-QVWcwVPi5-Et5rXI1knb-B6/view?usp=share_link`} />
+          <Button text="Resume" link={`https://drive.google.com/file/d/1iFfGlNmWqP06LRboTtQqI7qm7Af5PRKY/view?usp=drive_link`} />
         </motion.div>
       </div>
     </div>
